@@ -1,0 +1,28 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 50px;
+  border: 0px solid rgb(189, 180, 180);
+  font-family: Comfortaa, Bree serif;
+}
+
+.navbar h1 {
+  font-size: 30px;
+}
+
+.nav-link-container a {
+  padding: 0 20px;
+  color: rgb(69, 66, 66);
+  text-decoration: none;
+  font-weight: 600;
+
+  @media (max-width: 768px) {
+    padding: 0 10px;
+  }
+}
+
+/* * {
+  border: 1px solid red;
+} */

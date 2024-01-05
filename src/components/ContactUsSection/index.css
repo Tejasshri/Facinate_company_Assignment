@@ -1,0 +1,12 @@
+.contact-section {
+  height: 30vh;
+  border: 0px solid green;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  margin: 10px;
+}
